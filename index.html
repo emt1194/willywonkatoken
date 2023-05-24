@@ -1229,13 +1229,20 @@
         text-shadow: 1px 1px 2px rgba(28, 21, 75, 0.5);
       }
 
+     @media screen and (max-width: 767px) {
+	 		.coins-hover
+	 {
+	 padding-bottom:15px;
+	 }}
+
       @media screen and (min-width: 768px) {
         .coins-hover img {
           margin-bottom: -90px;
 		}
-		      .coins-hover img:hover {
-			        transform: scale(1.05);  
-      }
+		.coins-hover img:hover {
+			transform: scale(1.05); 
+			filter: drop-shadow(30px 30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(-30px 30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(-30px -30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(30px -30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(30px 30px 50px rgba(255, 255, 255, 0.25)) drop-shadow(-30px 30px 50px rgba(255, 255, 255, 0.25)) drop-shadow(-30px -30px 50px rgba(255, 255, 255, 0.25)) drop-shadow(30px -30px 50px rgba(255, 255, 255, 0.25));					
+		}
       }
 
       .coins-hover img {
@@ -1243,10 +1250,6 @@
         filter: drop-shadow(10px 10px 5px rgba(0, 0, 0.25));
 
         padding-bottom: 10px;
-      }
-
-      .coins-hover img:hover {
-        filter: drop-shadow(30px 30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(-30px 30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(-30px -30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(30px -30px 30px rgba(255, 255, 0, 0.25)) drop-shadow(30px 30px 50px rgba(255, 255, 255, 0.25)) drop-shadow(-30px 30px 50px rgba(255, 255, 255, 0.25)) drop-shadow(-30px -30px 50px rgba(255, 255, 255, 0.25)) drop-shadow(30px -30px 50px rgba(255, 255, 255, 0.25));
       }
 
       .max-width-1 {
