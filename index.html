@@ -1232,14 +1232,16 @@
       @media screen and (min-width: 768px) {
         .coins-hover img {
           margin-bottom: -90px;
-        }
+		}
+		      .coins-hover img:hover {
+			        transform: scale(1.05);  
+      }
       }
 
       .coins-hover img {
         transition: all 1s ease-in-out;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
         filter: drop-shadow(10px 10px 5px rgba(0, 0, 0.25));
+
         padding-bottom: 10px;
       }
 
