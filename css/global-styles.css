@@ -164,7 +164,7 @@
         display: none;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
         .menu-bar-item.slideout-toggle {
           display: none;
         }
@@ -189,7 +189,7 @@
         }
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
 
         .site-header,
         #site-navigation,
@@ -241,7 +241,7 @@
         line-height: 20px;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
 
         .main-navigation.has-branding.nav-align-center .menu-bar-items,
         .main-navigation.has-sticky-branding.navigation-stick.nav-align-center .menu-bar-items {

@@ -357,7 +357,7 @@
         --gp-search-modal-overlay-bg-color: rgba(0, 0, 0, 0.2);
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
 
         .main-navigation .menu-bar-item:hover>a,
         .main-navigation .menu-bar-item.sfHover>a {
@@ -589,7 +589,7 @@
         background: transparent;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
 
         .main-navigation .main-nav ul li a,
         .main-navigation .menu-toggle,
