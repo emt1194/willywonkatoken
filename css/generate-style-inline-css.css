@@ -512,7 +512,7 @@
         width: 100%;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 900px) {
 
         .main-navigation .menu-toggle,
         .sidebar-nav-mobile:not(#sticky-placeholder) {
